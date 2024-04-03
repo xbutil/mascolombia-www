@@ -1552,6 +1552,10 @@
             "section#tienda-1 p::before": {
               "content": "\"$\""
             },
+            "#shopping-cart": {
+              "top": "140px !important",
+              "right": "18px !important"
+            },
             "#shopping-cart > span": {
               "text-align": "right",
               "background-color": "#3a97cd",
@@ -1575,7 +1579,7 @@
           },
           "_name": "eb-shop",
           "_sourceTheme": "trackm5",
-          "_customHTML": "<section class=\"eb-shop\" group=\"Widget\"><script src=\"https://s.electricblaze.com/widget.js\" defer=\"\"></script>\n<div class=\"electricblaze-id-2UhxBr0\"></div></section>",
+          "_customHTML": "<section class=\"eb-shop\" group=\"Widget\">[JS_CODE_0]\n<div class=\"electricblaze-id-2UhxBr0\"></div></section>",
           "_cid": "u6Roc4ND4O",
           "_anchor": "tienda-1",
           "safe": {

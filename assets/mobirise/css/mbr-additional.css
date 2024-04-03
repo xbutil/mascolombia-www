@@ -2034,6 +2034,10 @@ a {
 .cid-u6Roc4ND4O section#tienda-1 p::before {
   content: "$";
 }
+.cid-u6Roc4ND4O #shopping-cart {
+  top: 140px !important;
+  right: 18px !important;
+}
 .cid-u6Roc4ND4O #shopping-cart > span {
   text-align: right;
   background-color: #3a97cd;
