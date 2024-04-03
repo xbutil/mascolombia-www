@@ -29,7 +29,7 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"></noscript>
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=jtFDlz"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=jtFDlz" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=tWOTuH"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=tWOTuH" type="text/css">
 
   
   
@@ -82,20 +82,18 @@
                     <li class="nav-item">
                         <a class="nav-link link text-black display-4" href="#video01-9">Contacto</a>
                     </li></ul>
+                <div class="mbr-section-btn-main" role="tablist"><a class="btn btn-white display-4" href="index.html#asistencias">Ver asistencias</a></div>
                 <div class="icons-menu-main">
-                    <a class="iconfont-wrapper" href="#" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-facebook socicon" style="font-size: 24px;"></span>
+                    <a class="iconfont-wrapper ax-carrito" href="#">
+                        <span class="p-2 mbr-iconfont mobi-mbri-shopping-cart mobi-mbri" style="font-size: 28px;"></span>
                     </a>
-                    <a class="iconfont-wrapper" href="#" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-twitter socicon" style="font-size: 24px;"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="#" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-instagram socicon" style="font-size: 24px;"></span>
-                    </a>
+                    
+                    
+                    
                     
                 </div>
 
-                <div class="mbr-section-btn-main" role="tablist"><a class="btn btn-white display-4" href="index.html#asistencias">Ver asistencias</a> <a class="btn btn-primary ax-carrito display-4"><span class="mobi-mbri mobi-mbri-shopping-cart mbr-iconfont mbr-iconfont-btn"></span>Carrito</a></div>
+
             </div>
             
         </div>
@@ -436,7 +434,7 @@
                 
                 <div data-form-type="formoid">
                     
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="6lrzcN37CqrBGCirv2H8Q4xegVjkCvkM47IkTYHxW7nGrdmUCYJIBN2Ppsh2/sJ3WXDrgRk2VU0qrC+Lla1HWyZV+gicyPnBdxUDmC6Ie1/54GDIQYkaIxN0fyLWrWw/.X+7jKKV8/qjgZjIjyBOKcn85mZHGOaOHrAdyNGcnTpWhjeZDrYREImowXyD7RdlHIGlspW1ErcSK02LP1lZTQe4oYmnLdaqAjWGJb3+LlZ/Xj4aaK2tLxToZ2amOcWBo">
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="XbLRqylVTKtOfGWHXoklvEINUoA5hzsm+Ir5CtTSxkKZ5Z2HtSozMkwuNKDs990S0xX1qWpbE3WXIemH9p5eIByR/IR1tJtY7xqb+HabROBS2KKAkep+ZeALg/EIfpNL.U/um0bog4XmCFj/e8/Wm1Of1uvsu0CqQkEz/BFm+FY0N2XWMBwWPYWXYrDsL/W/12Fa1ot+jm+GlPbhMpE4hn2iwQxBEXcNTJWf2f/1Yeaney014fMRXgYaPhmOifXKe">
                         <div class="row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Gracias por escribirnos!</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -611,7 +609,12 @@ $("#IrAPagar").on( "click", function() {
 });
 
 </script>
-  
+  <script>
+$(".ax-carrito").on("click", function (){
+ $("#shopping-cart").trigger("click");
+ console.log("Carrito OK");
+});
+</script>
 
 <div id="chatbutton-wa" data-phone="+573007044455" data-showpopup="true" data-headertitle="WhatsApp" data-popupmessage="Hola!👋
 
