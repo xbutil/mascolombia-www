@@ -121,7 +121,7 @@
               },
               "padding": "0",
               "& when (@sticky)": {
-                "position": "absolute !important"
+                "position": "fixed !important"
               },
               "background-image": "linear-gradient(94deg, #ffffff 6%, rgba(48, 166, 229, 0.61) 100%) !important"
             },
@@ -2638,7 +2638,7 @@
               },
               "padding": "0",
               "& when (@sticky)": {
-                "position": "absolute !important"
+                "position": "fixed !important"
               },
               "background-image": "linear-gradient(94deg, #ffffff 6%, rgba(48, 166, 229, 0.61) 100%) !important"
             },

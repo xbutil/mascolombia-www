@@ -752,7 +752,7 @@ a {
 .cid-tTfhL6NvIz .navbar-dropdown {
   background-color: #ffffff !important;
   padding: 0;
-  position: absolute !important;
+  position: fixed !important;
   background-image: linear-gradient(94deg, #ffffff 6%, rgba(48, 166, 229, 0.61) 100%) !important;
 }
 .cid-tTfhL6NvIz .navbar.navbar-expand-lg .dropdown .dropdown-menu {
@@ -2882,7 +2882,7 @@ a {
 .cid-u6S1VH1ET7 .navbar-dropdown {
   background-color: #ffffff !important;
   padding: 0;
-  position: absolute !important;
+  position: fixed !important;
   background-image: linear-gradient(94deg, #ffffff 6%, rgba(48, 166, 229, 0.61) 100%) !important;
 }
 .cid-u6S1VH1ET7 .navbar.navbar-expand-lg .dropdown .dropdown-menu {
